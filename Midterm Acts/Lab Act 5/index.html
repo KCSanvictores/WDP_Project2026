@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Box Hover Effect</title>
+        <style>
+            body {
+                font-family: "Times New Roman", serif;
+                background-color: #ffffff;
+                margin: 50px;
+            }
+
+            h2 {
+                text-align: left;
+            }
+
+            .box {
+                width: 300px;
+                height: 250px;
+                background-color: #9b4dca;
+                color: #ffffff;
+                border: 5px solid #4a1a63;
+                
+                margin: 20px auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+                transition: all 0.3s ease; 
+                cursor: pointer;
+            }
+
+            .box:hover {
+                background-color: #7b2cbf;
+                transform: scale(1.02);
+            }
+        </style>
+    </head>
+    <body>
+
+        <h2>CSS Box Hover Effect</h2>
+
+        <div class="box">
+            Hover over me!
+        </div>
+
+    </body>
+</html>
